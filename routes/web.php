@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 
-
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,5 +13,4 @@ use App\Http\Controllers\PageController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', [PageController::class,'home'])->name('home');
